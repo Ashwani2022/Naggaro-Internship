@@ -1,4 +1,93 @@
-
-Sorry, a file exists where you’re trying to create a subdirectory. Choose a new path and try again.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style media="screen">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+        font-family: verdana;
+        text-transform: capitalize;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+          90deg,
+          rgb(173, 22, 47) 0%,
+          rgb(206, 67, 16) 35%,
+          rgb(0, 255, 76) 100%
+        );
+      }
+      .container {
+        height: 450px;
+        width: 320px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 5 px 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        overflow-y: auto;
+      }
+      #input {
+        height: 50px;
+        width: 100%;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background: rgb(217, 236, 50);
+        color: black;
+        padding: 0 10px;
+        margin: 15px 0;
+      }
+      #input::placeholder {
+        color: rgb(173, 56, 209);
+      }
+      ol {
+        box-sizing: border-box;
+        background: #eee;
+        color: #333;
+        border-radius: none;
+        margin: 15px 0;
+        padding: 10px;
+        list-style-type: none;
+      }
+      ol .fa-check,
+      .fa-trash {
+        position: relative;
+        cursor: pointer;
+      }
+      ol .fa-check {
+        float: center;
+        color: blue;
+      }
+      ol .fa-trash {
+        float: right;
+        color: red;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/40a85485d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>To do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="text-align: center">To-Do list</h2>
+      <input type="text" id="input" placeholder="Add your Task here" />
+      <ol></ol>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+  </body>
+</html>
 
 
