@@ -1,0 +1,25 @@
+body {
+    background-color: #A66CFF;
+
+}
+
+h1 {
+
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.one{
+    text-align: center;
+    background-color:#A66CFF;
+}
+.two{
+    text-align: center;
+    background-color: #A66CFF ;
+}
+
+.pastehere,
+.two {
+    margin-top: 20px;
+    background-color: #A66CFF
+}
