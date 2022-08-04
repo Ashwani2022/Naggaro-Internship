@@ -1,0 +1,69 @@
+@media screen {
+
+    body {
+        background-color: #81CACF;
+        background-size: 1380px 919px;
+    }
+
+    #outercontainer {
+        position: absolute;
+        top: 160px;
+        left: 337px;
+        width: 50%;
+        height: 70%;
+    }
+
+    #leftarrow {
+        float: left;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 2px;
+        border-style: solid;
+        background: #DF7861;
+        position: relative;
+        top: 130px;
+    }
+
+    #rightarrow {
+        float: right;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 2px;
+        border-style: solid;
+        background: #DF7861;
+        position: relative;
+        top: 130px;
+    }
+
+    .innercontainer {
+        position: absolute;
+        left: 110px;
+        width: 70%;
+        height: 70%;
+    }
+
+    #circleicon {
+        position: relative;
+        top: 410px;
+        left: 330px;
+    }
+
+    .slide {
+        display: none;
+    }
+
+    #mark1,
+    #mark2,
+    #mark3,
+    #mark4 {
+        color: coral;
+    }
+
+    img {
+        position: relative;
+        width: 75vh;
+        height: 50vh;
+    }
+}
