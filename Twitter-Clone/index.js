@@ -41,7 +41,7 @@ passport.use(new GoogleStratergy({
         clientID: process.env.GOOGLE_CLIENT_ID,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET,
         // callbackURL: `http://localhost:${process.env.SERVER_PORT}/auth/google/callback`
-        callbackURL: `https://twitter-clone-1239.herokuapp.com/auth/google/callback`
+        callbackURL: `https://twitter-clone2023.herokuapp.com/auth/google/callback`
     },
 
     function(accessToken, refreshToken, profile, done) {
